@@ -1,7 +1,10 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">发现</router-link> |
+    <router-link to="/vlog">播客</router-link> |
+    <router-link to="/user">我的</router-link> |
+    <router-link to="/subs">关注</router-link> |
+    <router-link to="/about">云村</router-link>
   </nav>
   <router-view/>
 </template>
