@@ -1,0 +1,159 @@
+/* 全局样式表 */
+* {
+  margin: 0;
+  padding: 0;
+  /* font-size: 14px; */
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.link {
+  color: #1737a1;
+  cursor: pointer;
+}
+
+#app {
+  --themeColor: #ec4141;
+}
+
+.container {
+  /* max-width: 1100px; */
+  margin: 0 auto;
+  padding: 25px 25px 0 25px;
+}
+
+.tab-container {
+  max-width: 1140px;
+  margin: 20px auto;
+  padding: 0 25px;
+}
+
+.text-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.text-small {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.text-highlight {
+  color: #065299;
+}
+
+.text-hide {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+textarea {
+  display: block;
+  resize: none;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+textarea:hover {
+  outline: none;
+}
+
+/* 默认按钮 */
+button {
+  border: 1px solid #ccc;
+  height: 30px;
+  padding: 0 15px;
+  background-color: #fff;
+  margin-right: 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #eee;
+}
+
+/* 主要按钮 */
+button.primary {
+  color: #fff;
+  background-color: var(--themeColor);
+  border: 0;
+}
+
+button.primary:hover {
+  background-color: #a10000;
+}
+
+/* 圆角按钮 */
+button.round {
+  border-radius: 15px;
+}
+
+/* 左侧圆角按钮 */
+button.round-left {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding-right: 5px;
+  margin-right: 0;
+}
+
+/* 右侧圆角按钮 */
+button.round-right {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-left: 5px;
+}
+
+/* 圆形按钮 */
+button.circle {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.tag {
+  padding: 1px 3px;
+  color: var(--themeColor);
+  border: 1px solid var(--themeColor);
+  border-radius: 5px;
+}
+
+.br5 {
+  border-radius: 5px;
+}
+
+/* 标题字体 */
+h1 {
+  /* 歌手名 歌单名 */
+  font-size: 22px;
+}
+
+h2 {
+  /* 专辑名 */
+  font-size: 16px;
+  font-weight: 550;
+}

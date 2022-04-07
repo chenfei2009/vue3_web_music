@@ -10,6 +10,9 @@
 </template>
 
 <style lang="less">
+@import "../public/css/global.css";
+@import "../public/css/font.css";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -19,14 +22,14 @@
 }
 
 nav {
-  padding: 30px;
+  padding: 0.3rem;
 
   a {
     font-weight: bold;
     color: #2c3e50;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: var(--themeColor);
     }
   }
 }
